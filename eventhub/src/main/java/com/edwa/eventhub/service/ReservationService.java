@@ -14,6 +14,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+// for future scaling (for extreme race conditions), a pessimistic locking might be implemented
+
 @Service
 @RequiredArgsConstructor
 public class ReservationService {
