@@ -1,0 +1,37 @@
+{
+  "info": {
+    "name": "EventHub Project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET all Events",
+      "request": {
+        "method": "GET",
+        "url": "/api/events"
+      }
+    },
+    {
+      "name": "POST an Event",
+      "request": {
+        "method": "POST",
+        "url": "/api/events"
+      }
+    },
+    {
+      "name": "GET a specific Event",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/api/events"
+      }
+    },
+    {
+      "name": "POST a Reservation",
+      "request": {
+        "method": "GET",
+        "url": "/api/reservations"
+      }
+    }
+  ],
+  "variable": []
+}

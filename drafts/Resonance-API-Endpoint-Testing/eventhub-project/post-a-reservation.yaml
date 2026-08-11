@@ -1,0 +1,29 @@
+resonanceFormat: 2
+id: req_1786466279764_xe97crj
+name: POST a Reservation
+seq: 40
+protocol: http
+method: GET
+path: /api/reservations
+url: http://localhost:8080/api/reservations
+auth:
+  type: none
+  config: {}
+params:
+  headers:
+  - key: Content-Type
+    value: application/json
+    enabled: true
+body:
+  mode: json
+  content: |-
+    {
+      "customerId" : 0,
+      "eventId" : 0,
+      "seatIds" : [0]
+    }
+spec:
+  parameters:
+    query: {}
+    header: {}
+    path: {}

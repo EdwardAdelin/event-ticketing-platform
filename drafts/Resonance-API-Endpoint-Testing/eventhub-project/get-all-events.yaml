@@ -1,0 +1,21 @@
+resonanceFormat: 2
+id: req_1786465385725_kyob066
+name: GET all Events
+seq: 10
+protocol: http
+method: GET
+path: /api/events
+url: http://localhost:8080/api/events
+auth:
+  type: inherit
+  config: {}
+params:
+  headers:
+  - key: Content-Type
+    value: application/json
+    enabled: true
+spec:
+  parameters:
+    query: {}
+    header: {}
+    path: {}

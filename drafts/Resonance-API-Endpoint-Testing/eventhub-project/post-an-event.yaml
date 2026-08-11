@@ -1,0 +1,24 @@
+resonanceFormat: 2
+id: req_1786465637096_vivpud0
+name: POST an Event
+seq: 20
+protocol: http
+method: POST
+path: /api/events
+url: http://localhost:8080/api/events
+auth:
+  type: none
+  config: {}
+params:
+  headers:
+  - key: Content-Type
+    value: application/json
+    enabled: true
+body:
+  mode: json
+  content: "{\n    \"title\": \"Disco Pop Madness\",\n    \"description\": \"Enjoy the great music of 00's artist that broke Romania in pieces.\",\n    \"date\": \"2026-11-05T18:00:00\",\n    \"category\": \"Concerts\",\n    \"venueId\": 0,\n    \"organizerId\": 0 \n  }"
+spec:
+  parameters:
+    query: {}
+    header: {}
+    path: {}
